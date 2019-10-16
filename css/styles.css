@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(rgba(0,0,0, 0.90),rgba(0,0,0, 0.90)), url("https://source.unsplash.com/random/1920x1080") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+}
+
+p {
+    color: var(--primary-font-color);
+    font-family: 'Comfortaa', cursive;
+    font-size: 5em;
+}
+
+.centered {
+    text-align: center;
+    width: 100%;
+}
+
+.content {
+    margin: auto;
+    min-width: auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.flex div {
+    padding: 15px;
+}
+
+.link {
+    display: block;
+    color: var(--primary-font-color);
+    padding: 10px;
+    border: solid 4px var(--primary-font-color);
+    border-radius: 45px;
+}
+
+.link:focus,
+.link:hover,
+.link:active {
+    background-color: rgba(0,0,0, 0.25);
+    transition: ease all .3s;
+}
